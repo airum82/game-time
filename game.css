@@ -1,11 +1,30 @@
-body {
-  background-color: #61873c;
-}
-
-h1 {
+* {
   color: #b5fc76;
   margin: 0;
   text-align: center;
+}
+
+body {
+  background-color: #61873c;
+  font-family: 'Black Ops One';
+}
+
+h1 {
+  color: blue;
+}
+
+span {
+  color: #243019;
+}
+
+button {
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  color: #c9e7ff;
+  display: none;
+  margin: auto;
+  margin-bottom: 5px;
 }
 
 #game {

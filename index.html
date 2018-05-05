@@ -3,16 +3,23 @@
 <head>
   <meta charset="utf-8">
   <title>Game Time</title>
+  <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Press+Start+2P" rel="stylesheet">
   <link href='./game.css' rel='stylesheet' type='text/css'/>
 </head>
 <body>
   <h1>FROGGY THE FROGGER</h1>
-  <canvas id='game' width="600" height="600">
-    
-  </canvas>
-  <img src="/images/frog.png" class="frog">
-  <img src="/images/blue-truck.png" class="truck">
-  <img src="/images/2dplatform.png" class="log">
+  <section>
+    <h3>
+      SCORE: <span id="score"> 0</span>
+      LIVES: <span id="lives"> 5</span>
+      <button>RESET GAME</button>
+    </h3>
+    <canvas id='game' width="600" height="600">
+    </canvas>
+    <img src="/images/frog.png" class="frog">
+    <img src="/images/blue-truck.png" class="truck">
+    <img src="/images/2dplatform.png" class="log">
+  </section>
   <script src="main.bundle.js"></script>
 </body>
 </html>
