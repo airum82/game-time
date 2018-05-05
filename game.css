@@ -1,5 +1,17 @@
+body {
+  background-color: #61873c;
+}
+
+h1 {
+  color: #b5fc76;
+  margin: 0;
+  text-align: center;
+}
+
 #game {
-  border: 1px dashed;
+  border: 2px solid;
+  border-color: #243019;
+  border-radius: 10px;
   margin: auto;
   display: block;
 }
