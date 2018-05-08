@@ -8,6 +8,5 @@ const Game = require('../lib/game.js');
 describe('Game', () => {
     it('should instantiate a new game with all default properties', () => {
         const game = new Game();
-        });
-    });
-
+  });
+});
